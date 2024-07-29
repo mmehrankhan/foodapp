@@ -4,9 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+           body, h1, form, label, input, button {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Full height for html and body */
+      html, body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      /* Style the form */
+      form {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+      }
+
+      /* Style the form elements */
+      label {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      /* Style the h1 element */
+      h1 {
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Create Recipe</h1>
+    <h1>Add your favourite food</h1>
+    <br />
+    <br />
+    <br />
 
     <form id="submit_food_form">
       <label>
@@ -15,25 +81,27 @@
       </label>
 
       <br />
+      <br />
+      <br />
       <label>
         Food Name
-        <input type="text" value="Biryani" required name="" id="" />
+        <input type="text" value="" required name="" id="" />
       </label>
-      <br />
+      <br /><br /><br />
 
       <label>
         Location
-        <input type="url" value="https://maps.app.goo.gl/7cFWFgQtxSHQpw9B6" required name="" id="" />
+        <input type="url" value="" required name="" id="" />
       </label>
-      <br />
+      <br /><br /><br />
 
       <label>
         Price
-        <input type="number" value="1200" required name="" id="" />
+        <input type="number" value="" required name="" id="" />
       </label>
-      <br />
+      <br /><br />
 
-      <button type="submit">Submit</button>
+      <button type="submit">Add Food</button>
     </form>
 
     <script src="app.js" type="module"></script>

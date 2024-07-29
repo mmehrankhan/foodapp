@@ -34,7 +34,7 @@ import {
   
   logout_btn.addEventListener("click", () => {
     signOut(auth).then(() => {
-      console.log("user sign out hogya");
+      console.log("user logout");
     });
   });
   

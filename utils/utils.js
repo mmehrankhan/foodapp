@@ -1,11 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
 import {
   getAuth,
   onAuthStateChanged,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
 
 import {
   getFirestore,
@@ -17,26 +17,23 @@ import {
   getDoc,
   deleteDoc,
   updateDoc,
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js";
 
 import {
   getStorage,
   ref,
   uploadBytes,
   getDownloadURL,
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+} from "https://www.gstatic.com/firebasejs/10.12.4/firebase-storage.js";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAr2R1sryYvVbSNdplyeKYrIHHZ6D0uZyc",
-  authDomain: "calcium-pod-256305.firebaseapp.com",
-  projectId: "calcium-pod-256305",
-  storageBucket: "calcium-pod-256305.appspot.com",
-  messagingSenderId: "182256618793",
-  appId: "1:182256618793:web:c3c627824b1c28feea3b38",
-  measurementId: "G-3R2S7KYERZ",
+  apiKey: "AIzaSyBvOIfQxccjzeLmCjJrrBniVBgot6UdJRE",
+  authDomain: "first-project-1758d.firebaseapp.com",
+  projectId: "first-project-1758d",
+  storageBucket: "first-project-1758d.appspot.com",
+  messagingSenderId: "800204461052",
+  appId: "1:800204461052:web:790790660b2a4bef1bd879",
+  measurementId: "G-8DFZVQ4ESC"
 };
 
 // Initialize Firebase
